@@ -1,0 +1,3 @@
+Observer Pattern :
+Observer Pattern is Used When There are Multiple Observers trying to access the updated stage of Observable when the state changes over time.
+For Ex- Notify Me Option in amazon
