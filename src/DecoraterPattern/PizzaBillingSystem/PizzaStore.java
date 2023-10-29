@@ -10,5 +10,8 @@ public class PizzaStore {
         BasePizza pizza = new ExtraCheese(new Mushroom(new Farmhouse()));
 
         System.out.println(pizza.cost());
+
+        BasePizza pizza1 = new Mushroom(new ExtraCheese(new Mushroom(new ExtraCheese(new Farmhouse()))));
+        System.out.println(pizza1.cost());
     }
 }
